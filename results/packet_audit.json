@@ -1,0 +1,367 @@
+{
+  "trials": [
+    {
+      "path": "/home/komail-shah/csi_dataset/empty/empty_01.txt",
+      "label": "empty",
+      "lines": 5033,
+      "non_csi_lines": 2589,
+      "damaged_non_csi_lines": 1,
+      "candidate_packets": 2444,
+      "valid_packets": 2444,
+      "corrupt_packets": 0,
+      "errors": {},
+      "error_line_examples": {},
+      "length_counts_iq_values": {
+        "234": 2444
+      },
+      "file_error": null,
+      "skip_reason": null,
+      "length_mismatch_packets": 0,
+      "retained_packets": 2444,
+      "windows": 24,
+      "trailing_packets_discarded": 44
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/empty/empty_02.txt",
+      "label": "empty",
+      "lines": 5723,
+      "non_csi_lines": 2933,
+      "damaged_non_csi_lines": 0,
+      "candidate_packets": 2790,
+      "valid_packets": 2789,
+      "corrupt_packets": 1,
+      "errors": {
+        "damaged text (invalid UTF-8 or NUL)": 1
+      },
+      "error_line_examples": {
+        "damaged text (invalid UTF-8 or NUL)": [
+          5
+        ]
+      },
+      "length_counts_iq_values": {
+        "234": 2789
+      },
+      "file_error": null,
+      "skip_reason": null,
+      "length_mismatch_packets": 0,
+      "retained_packets": 2789,
+      "windows": 27,
+      "trailing_packets_discarded": 89
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/empty/empty_03.txt",
+      "label": "empty",
+      "lines": 4813,
+      "non_csi_lines": 2478,
+      "damaged_non_csi_lines": 0,
+      "candidate_packets": 2335,
+      "valid_packets": 2334,
+      "corrupt_packets": 1,
+      "errors": {
+        "damaged text (invalid UTF-8 or NUL)": 1
+      },
+      "error_line_examples": {
+        "damaged text (invalid UTF-8 or NUL)": [
+          5
+        ]
+      },
+      "length_counts_iq_values": {
+        "234": 2334
+      },
+      "file_error": null,
+      "skip_reason": null,
+      "length_mismatch_packets": 0,
+      "retained_packets": 2334,
+      "windows": 23,
+      "trailing_packets_discarded": 34
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/empty/empty_04.txt",
+      "label": "empty",
+      "lines": 4787,
+      "non_csi_lines": 2466,
+      "damaged_non_csi_lines": 1,
+      "candidate_packets": 2321,
+      "valid_packets": 2321,
+      "corrupt_packets": 0,
+      "errors": {},
+      "error_line_examples": {},
+      "length_counts_iq_values": {
+        "234": 2321
+      },
+      "file_error": null,
+      "skip_reason": null,
+      "length_mismatch_packets": 0,
+      "retained_packets": 2321,
+      "windows": 23,
+      "trailing_packets_discarded": 21
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/empty/empty_05.txt",
+      "label": "empty",
+      "lines": 4572,
+      "non_csi_lines": 2358,
+      "damaged_non_csi_lines": 1,
+      "candidate_packets": 2214,
+      "valid_packets": 2214,
+      "corrupt_packets": 0,
+      "errors": {},
+      "error_line_examples": {},
+      "length_counts_iq_values": {
+        "234": 2214
+      },
+      "file_error": null,
+      "skip_reason": null,
+      "length_mismatch_packets": 0,
+      "retained_packets": 2214,
+      "windows": 22,
+      "trailing_packets_discarded": 14
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/still/still_01.txt",
+      "label": "still",
+      "lines": 3562,
+      "non_csi_lines": 1853,
+      "damaged_non_csi_lines": 1,
+      "candidate_packets": 1709,
+      "valid_packets": 1709,
+      "corrupt_packets": 0,
+      "errors": {},
+      "error_line_examples": {},
+      "length_counts_iq_values": {
+        "234": 1709
+      },
+      "file_error": null,
+      "skip_reason": null,
+      "length_mismatch_packets": 0,
+      "retained_packets": 1709,
+      "windows": 17,
+      "trailing_packets_discarded": 9
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/still/still_02.txt",
+      "label": "still",
+      "lines": 3664,
+      "non_csi_lines": 1904,
+      "damaged_non_csi_lines": 1,
+      "candidate_packets": 1760,
+      "valid_packets": 1760,
+      "corrupt_packets": 0,
+      "errors": {},
+      "error_line_examples": {},
+      "length_counts_iq_values": {
+        "234": 1760
+      },
+      "file_error": null,
+      "skip_reason": null,
+      "length_mismatch_packets": 0,
+      "retained_packets": 1760,
+      "windows": 17,
+      "trailing_packets_discarded": 60
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/still/still_03.txt",
+      "label": "still",
+      "lines": 4088,
+      "non_csi_lines": 2116,
+      "damaged_non_csi_lines": 0,
+      "candidate_packets": 1972,
+      "valid_packets": 1971,
+      "corrupt_packets": 1,
+      "errors": {
+        "damaged text (invalid UTF-8 or NUL)": 1
+      },
+      "error_line_examples": {
+        "damaged text (invalid UTF-8 or NUL)": [
+          5
+        ]
+      },
+      "length_counts_iq_values": {
+        "234": 1971
+      },
+      "file_error": null,
+      "skip_reason": null,
+      "length_mismatch_packets": 0,
+      "retained_packets": 1971,
+      "windows": 19,
+      "trailing_packets_discarded": 71
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/still/still_04.txt",
+      "label": "still",
+      "lines": 4114,
+      "non_csi_lines": 2129,
+      "damaged_non_csi_lines": 1,
+      "candidate_packets": 1985,
+      "valid_packets": 1985,
+      "corrupt_packets": 0,
+      "errors": {},
+      "error_line_examples": {},
+      "length_counts_iq_values": {
+        "234": 1985
+      },
+      "file_error": null,
+      "skip_reason": null,
+      "length_mismatch_packets": 0,
+      "retained_packets": 1985,
+      "windows": 19,
+      "trailing_packets_discarded": 85
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/still/still_05.txt",
+      "label": "still",
+      "lines": 3836,
+      "non_csi_lines": 1990,
+      "damaged_non_csi_lines": 0,
+      "candidate_packets": 1846,
+      "valid_packets": 1845,
+      "corrupt_packets": 1,
+      "errors": {
+        "damaged text (invalid UTF-8 or NUL)": 1
+      },
+      "error_line_examples": {
+        "damaged text (invalid UTF-8 or NUL)": [
+          5
+        ]
+      },
+      "length_counts_iq_values": {
+        "234": 1845
+      },
+      "file_error": null,
+      "skip_reason": null,
+      "length_mismatch_packets": 0,
+      "retained_packets": 1845,
+      "windows": 18,
+      "trailing_packets_discarded": 45
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/walking/walking_01.txt",
+      "label": "walking",
+      "lines": 4181,
+      "non_csi_lines": 2163,
+      "damaged_non_csi_lines": 1,
+      "candidate_packets": 2018,
+      "valid_packets": 2018,
+      "corrupt_packets": 0,
+      "errors": {},
+      "error_line_examples": {},
+      "length_counts_iq_values": {
+        "234": 2018
+      },
+      "file_error": null,
+      "skip_reason": null,
+      "length_mismatch_packets": 0,
+      "retained_packets": 2018,
+      "windows": 20,
+      "trailing_packets_discarded": 18
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/walking/walking_02.txt",
+      "label": "walking",
+      "lines": 2984,
+      "non_csi_lines": 1564,
+      "damaged_non_csi_lines": 0,
+      "candidate_packets": 1420,
+      "valid_packets": 1419,
+      "corrupt_packets": 1,
+      "errors": {
+        "damaged text (invalid UTF-8 or NUL)": 1
+      },
+      "error_line_examples": {
+        "damaged text (invalid UTF-8 or NUL)": [
+          5
+        ]
+      },
+      "length_counts_iq_values": {
+        "234": 1419
+      },
+      "file_error": null,
+      "skip_reason": null,
+      "length_mismatch_packets": 0,
+      "retained_packets": 1419,
+      "windows": 14,
+      "trailing_packets_discarded": 19
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/walking/walking_03.txt",
+      "label": "walking",
+      "lines": 3176,
+      "non_csi_lines": 1661,
+      "damaged_non_csi_lines": 2,
+      "candidate_packets": 1515,
+      "valid_packets": 1515,
+      "corrupt_packets": 0,
+      "errors": {},
+      "error_line_examples": {},
+      "length_counts_iq_values": {
+        "234": 1515
+      },
+      "file_error": null,
+      "skip_reason": null,
+      "length_mismatch_packets": 0,
+      "retained_packets": 1515,
+      "windows": 15,
+      "trailing_packets_discarded": 15
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/walking/walking_04.txt",
+      "label": "walking",
+      "lines": 3771,
+      "non_csi_lines": 1958,
+      "damaged_non_csi_lines": 1,
+      "candidate_packets": 1813,
+      "valid_packets": 1813,
+      "corrupt_packets": 0,
+      "errors": {},
+      "error_line_examples": {},
+      "length_counts_iq_values": {
+        "234": 1813
+      },
+      "file_error": null,
+      "skip_reason": null,
+      "length_mismatch_packets": 0,
+      "retained_packets": 1813,
+      "windows": 18,
+      "trailing_packets_discarded": 13
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/walking/walking_05.txt",
+      "label": "walking",
+      "lines": 3863,
+      "non_csi_lines": 2004,
+      "damaged_non_csi_lines": 1,
+      "candidate_packets": 1859,
+      "valid_packets": 1859,
+      "corrupt_packets": 0,
+      "errors": {},
+      "error_line_examples": {},
+      "length_counts_iq_values": {
+        "234": 1859
+      },
+      "file_error": null,
+      "skip_reason": null,
+      "length_mismatch_packets": 0,
+      "retained_packets": 1859,
+      "windows": 18,
+      "trailing_packets_discarded": 59
+    }
+  ],
+  "length_counts_iq_values": {
+    "234": 29996
+  },
+  "selected_iq_length": 234,
+  "totals": {
+    "candidate_packets": 30001,
+    "valid_packets": 29996,
+    "corrupt_packets": 5,
+    "non_csi_lines": 32166,
+    "damaged_non_csi_lines": 11,
+    "length_mismatch_packets": 0,
+    "retained_packets": 29996,
+    "trailing_packets_discarded": 596,
+    "windows": 294,
+    "files_found": 15,
+    "files_used": 15,
+    "files_skipped": 0
+  }
+}

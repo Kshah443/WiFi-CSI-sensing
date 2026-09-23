@@ -1,0 +1,81 @@
+{
+  "train": [
+    {
+      "path": "/home/komail-shah/csi_dataset/empty/empty_03.txt",
+      "label": "empty",
+      "windows": 23
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/empty/empty_04.txt",
+      "label": "empty",
+      "windows": 23
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/empty/empty_02.txt",
+      "label": "empty",
+      "windows": 27
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/empty/empty_01.txt",
+      "label": "empty",
+      "windows": 24
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/still/still_01.txt",
+      "label": "still",
+      "windows": 17
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/still/still_02.txt",
+      "label": "still",
+      "windows": 17
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/still/still_03.txt",
+      "label": "still",
+      "windows": 19
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/still/still_05.txt",
+      "label": "still",
+      "windows": 18
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/walking/walking_05.txt",
+      "label": "walking",
+      "windows": 18
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/walking/walking_01.txt",
+      "label": "walking",
+      "windows": 20
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/walking/walking_02.txt",
+      "label": "walking",
+      "windows": 14
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/walking/walking_04.txt",
+      "label": "walking",
+      "windows": 18
+    }
+  ],
+  "test": [
+    {
+      "path": "/home/komail-shah/csi_dataset/empty/empty_05.txt",
+      "label": "empty",
+      "windows": 22
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/still/still_04.txt",
+      "label": "still",
+      "windows": 19
+    },
+    {
+      "path": "/home/komail-shah/csi_dataset/walking/walking_03.txt",
+      "label": "walking",
+      "windows": 15
+    }
+  ]
+}
