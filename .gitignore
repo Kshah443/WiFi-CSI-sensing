@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Raw CSI datasets
+csi_dataset/
+*.txt
+
+# Temporary files
+*.log
