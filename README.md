@@ -50,6 +50,19 @@ ESP32-C5 TX
 The first working prototype successfully captures CSI in real time and
 distinguishes empty-room, stationary-person, and walking conditions.
 
+## Limitations
+
+The current baseline was trained and evaluated on a small dataset collected
+in a single environment with a fixed transmitter/receiver arrangement.
+
+Although testing was performed using entirely held-out trial files rather than
+randomly splitting windows, the reported 96.43% accuracy should be treated as
+an initial baseline rather than evidence of cross-room or cross-user
+generalization.
+
+Future testing will evaluate performance across different sensor positions,
+room layouts, subjects, walking directions, and environmental conditions.
+
 Next steps:
 
 - Testing generalization across different TX/RX positions
