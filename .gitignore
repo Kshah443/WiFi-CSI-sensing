@@ -3,3 +3,9 @@ __pycache__/
 .venv/
 *.log
 .DS_Store
+localization_*.csv
+*.zip
+__pycache__/
+*.pyc
+.venv/
+build/

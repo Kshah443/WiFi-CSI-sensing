@@ -1,0 +1,23 @@
+menu "CSI UDP forwarding"
+
+config CSI_UDP_DEST_IP
+    string "Laptop destination IPv4 address"
+    default "192.168.4.2"
+    help
+        Set to the laptop's IPv4 address on the receiver's SoftAP network.
+        Use a DHCP reservation or a static laptop address for stable forwarding.
+
+config CSI_UDP_DEST_PORT
+    int "Laptop destination UDP port"
+    range 1 65535
+    default 5005
+
+config CSI_UDP_AP_SSID
+    string "Receiver SoftAP SSID (1 to 32 bytes)"
+    default "CSI-RX"
+
+config CSI_UDP_AP_PASSWORD
+    string "Receiver SoftAP WPA2 password (8 to 63 bytes)"
+    default "csi-receiver"
+
+endmenu

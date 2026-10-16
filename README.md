@@ -45,6 +45,29 @@ ESP32-C5 TX
 → feature extraction
 → Random Forest classifier
 
+## Receiver firmware
+
+The ESP32-C5 receiver now supports queued UDP forwarding alongside the existing
+serial `CSI_DATA` output. See [firmware setup and UDP format](firmware/csi_recv/README.md)
+for ESP-IDF 5.5.3 build instructions, laptop networking, and packet-rate checks.
+
+For live localization over that link, join the laptop to the receiver's `CSI-RX`
+network and run:
+
+```bash
+.venv/bin/python realtime_localization.py --transport udp --udp-port 5005 \
+  --results /home/komail-shah/csi_localization_relative_results \
+  --no-gui --debug-packets --log
+```
+
+The UDP port must match the receiver's configured destination port. UDP defaults
+to listening on all IPv4 interfaces; use `--udp-bind` to restrict it. With no
+`--transport` option, live localization still reads serial at `/dev/ttyUSB0`.
+`--debug-packets` shows UDP datagrams, malformed datagrams, sequence gaps,
+duplicates, and out-of-order packets alongside the existing parsing counters.
+The received 16-bit CSI values go through the existing serial parser, including
+its signed-int8 range check, so model preprocessing and CSV columns stay the same.
+
 ## Current Status
 
 The first working prototype successfully captures CSI in real time and
